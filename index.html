@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebSpiders</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <header>
     <div>
@@ -15,17 +16,16 @@
 
 </header>
 <body>
-
-     <nav>
-        
+<section>
+     <nav id="ul">
         <ul>
-            <li>Home</li>
-            <li><a href="about.html">About page</a></li>
-            <li><a href="work.html">Work page</a></li>
-            <li><a href="resume.html">Resume page</a></li>
-            <li><a href="contact.html">Contact page</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
-        <div>
+        <div class="landing">
             <p>
                 Walter Camp is credited with altering the rules of rugby to create <br> 
                 the game of modern North American football we are familiar with today. <br> 
@@ -35,6 +35,7 @@
             </p>
         </div>
     
+        <div>
              <video width="320" height="240" controls>
              <source src="classwork1.mp4" type="video/mp4">
              </video>
@@ -42,8 +43,9 @@
              <audio controls>
              <source src="Kizz-Daniel-RTID.mp3" type="audio/ogg">
              </audio>
+        </div>
              <div>
-                <form>
+                <form class="text">
                     <label for="name">Name: </label>
                     <input type="text" Placeholder="insert your name here"><br>
                     <label for="phone">Phone: </label>
@@ -59,17 +61,18 @@
                         <option>female</option>
                     </select>
                     <button type="submit">save</button>
-     </nav>     
-        <footer>
-            <p>Author</p> 
-            <p>Copyright </p> 
-            <p>Contact Us</p>
+             </div>
+    </nav>     
+        <footer class="h2">
+            <h2>Author:</h2>
+            <h2>Copyright:</h2>
+            <h2>Contact Us:</h2>
 
         </footer>
-         <div>
-             <a href="#TopOfThePage">let's go up Top</a>
-         </div>
+        <div class="h3">
+            <h3><a href="#TopOfThePage">let's go up Top</a></h3>
+        </div>
     
-    
+    </section>
 </body>
 </html>
