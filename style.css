@@ -1,5 +1,5 @@
-body{
-    /* background-image: url('project1.jpg'); */
+/* body{
+    /* background-image: url('project1.jpg'); 
     background-color: #E7E9EB;
     background-repeat: no-repeat;
     background-size: 120%;
@@ -8,13 +8,14 @@ body{
     padding: 5px;
     color: rgb(245, 250, 245);
     font-family: 'Times New Roman', Times, serif;
-}
+} */
 
 .title{
     /* color: rgb(248, 45, 45); */
     color:#0088FF;
     text-align: left;
     font-size: x-large;
+    
 } 
 
 /* .ul{
@@ -31,10 +32,13 @@ body{
 
 } */
 
-.h2{
+.footer{
+    background-color: #0088FF;
+    display: flex;
+    border-radius: 8px;
     color: #000000;
-    font-style: italic;
-    justify-content: left;
+    font-style: normal;
+    justify-content: space-between;
 }
 
 .h3{
